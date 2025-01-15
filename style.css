@@ -1,0 +1,70 @@
+body {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    background:linear-gradient(#000, #999);
+}
+
+header {
+    background-color: #999;
+    color:white;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+    display:flex;
+    color:#999;
+}
+
+.hero {
+    background-color: rgb(white, black, grey);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.hero .cta {
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #999;
+
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.services-container, .project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #000;
+   
+}
+
+.service, .project-container img {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba (0, 0, 0, 0.1);
+
+}
+
+footer {
+    background-color:#999;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
